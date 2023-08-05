@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/imforster",
+        "image": "social/github.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "link": "https://linkedin.com/in/ianmforster",
+        "image": "social/iconmonstr-linkedin-5.svg"
+    }
+]
