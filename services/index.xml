@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on IMF Software Solutions</title>
-    <link>https://dev.imfsoftware.com/services/</link>
+    <link>https://www.imfsoftware.com/services/</link>
     <description>Recent content in Services on IMF Software Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://dev.imfsoftware.com/services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://www.imfsoftware.com/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software Archictecture</title>
-      <link>https://dev.imfsoftware.com/services/software-architecture/</link>
+      <link>https://www.imfsoftware.com/services/software-architecture/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://dev.imfsoftware.com/services/software-architecture/</guid>
+      <guid>https://www.imfsoftware.com/services/software-architecture/</guid>
       <description>Drawing upon my deep understanding of software architecture principles and best practices.</description>
     </item>
     
     <item>
       <title>Consulting and Advisory Services</title>
-      <link>https://dev.imfsoftware.com/services/consultant/</link>
+      <link>https://www.imfsoftware.com/services/consultant/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://dev.imfsoftware.com/services/consultant/</guid>
+      <guid>https://www.imfsoftware.com/services/consultant/</guid>
       <description>In addition to the specific services mentioned above, We offer general software consulting and advisory services. Whether you need assistance with project planning, technology selection, or evaluating software solutions, We provide valuable insights and recommendations based on my years of experience in the industry.</description>
     </item>
     
     <item>
       <title>Leadership &amp; Mentoring</title>
-      <link>https://dev.imfsoftware.com/services/leadership/</link>
+      <link>https://www.imfsoftware.com/services/leadership/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://dev.imfsoftware.com/services/leadership/</guid>
+      <guid>https://www.imfsoftware.com/services/leadership/</guid>
       <description>As a seasoned software professional, We provide technical leadership and mentorship to your development teams. We will work closely with your team members, providing guidance and support to help them enhance their skills and achieve their full potential. Together, we can foster a culture of continuous learning and excellence within your organization.</description>
     </item>
     
     <item>
       <title>Performance</title>
-      <link>https://dev.imfsoftware.com/services/performance/</link>
+      <link>https://www.imfsoftware.com/services/performance/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://dev.imfsoftware.com/services/performance/</guid>
+      <guid>https://www.imfsoftware.com/services/performance/</guid>
       <description>If you are facing performance challenges in your software systems, We can help identify and address bottlenecks. Through careful analysis and optimization techniques, We work to improve the performance of your applications, ensuring they meet the demands of your users and business requirements.</description>
     </item>
     
     <item>
       <title>System Integration</title>
-      <link>https://dev.imfsoftware.com/services/integration/</link>
+      <link>https://www.imfsoftware.com/services/integration/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://dev.imfsoftware.com/services/integration/</guid>
+      <guid>https://www.imfsoftware.com/services/integration/</guid>
       <description>Integrating disparate systems can be a complex task. With my expertise in system integration, We can assist you in seamlessly connecting your applications, enabling data flow and communication across various platforms. We ensure that your systems work harmoniously together, maximizing efficiency and eliminating data silos.</description>
     </item>
     
     <item>
       <title>Software Design</title>
-      <link>https://dev.imfsoftware.com/services/software-design/</link>
+      <link>https://www.imfsoftware.com/services/software-design/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
       
-      <guid>https://dev.imfsoftware.com/services/software-design/</guid>
+      <guid>https://www.imfsoftware.com/services/software-design/</guid>
       <description>Helpng you design scalable, reliable, and maintainable software systems. Whether you need assistance with system architecture design, designing microservices, or improving the architecture of an existing system, We have the expertise to guide you through the process.</description>
     </item>
     
