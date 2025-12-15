@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ block "meta_tags" . }}{{ end }}
+  <link rel="icon" href="{{ "favicon.png" | absURL}}">
+  {{ if hugo.IsProduction }}
+    <link href="{{ "css/style.min.css" | absURL }}" rel="stylesheet">
+  {{ else }}
+    <link href="{{ "css/style.css" | absURL }}" rel="stylesheet">
+  {{ end }}
+  {{ block "header_css" . }}{{ end }}
+</head>
+<body class='page {{ block "body_classes" . }}{{ end }}'>
+  {{ partial "main-menu-mobile.html" . }}
+  <div class="wrapper">
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+  {{ partial "sub-footer.html" . }}
+  <script type="text/javascript" src="{{ "js/scripts.min.js" | absURL }}"></script>
+  {{ block "footer_js" . }}{{ end }}
+</body>
+</html>

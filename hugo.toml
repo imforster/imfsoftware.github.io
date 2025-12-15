@@ -2,6 +2,13 @@ baseURL = "http://dev.imfsoftware.com/"
 languageCode = "en-us"
 title = "IMF Software Solutions"
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [module]
   [module.hugoVersion]
     extended = true
@@ -49,4 +56,4 @@ title = "IMF Software Solutions"
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
-  pages = "/:filename/"
+  pages = "/:contentbasename/"
