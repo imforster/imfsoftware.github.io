@@ -22,10 +22,12 @@ ignoreLogs = ['warning-goldmark-raw-html']
   google_analytics_id=""
 
   [params.logo]
-    mobile = "images/company-icon.png"
+    mobile = "images/company-icon-32.png"
     mobile_height = "32px"
     mobile_width = "32px"
-    desktop = "images/company-icon-32.png"
+    desktop = "images/company-icon.png"
+    desktop_height = "92px"
+    desktop_width = "92px"
     alt = "IMF Software Solutions"
 
   [params.homepage_meta_tags]
