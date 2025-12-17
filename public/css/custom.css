@@ -23,20 +23,21 @@ img[alt="IMF Software"] {
 /* Hero image optimization */
 .hero-image-fullscreen {
   height: 60vh !important;
+  min-height: 700px !important;
   background-size: cover !important;
   background-position: center center !important;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
 
-@media (max-width: 768px) {
-  .hero-image-fullscreen {
-    height: 50vh !important;
-  }
+/* Add more padding above hero text */
+.hero-image .hero-text {
+  padding-top: 120px !important;
 }
 
-/* Restore original intro section sizing */
-.intro {
-  padding-top: 80px !important;
-  padding-bottom: 60px !important;
+@media (max-width: 768px) {
+  .hero-image-fullscreen {
+    height: 80vh !important;
+    min-height: 775px !important;
+  }
 }
