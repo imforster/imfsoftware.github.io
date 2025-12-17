@@ -29,6 +29,11 @@ img[alt="IMF Software"] {
   image-rendering: crisp-edges;
 }
 
+/* Add more padding above hero text */
+.hero-image .hero-text {
+  padding-top: 80px !important;
+}
+
 @media (max-width: 768px) {
   .hero-image-fullscreen {
     height: 50vh !important;
