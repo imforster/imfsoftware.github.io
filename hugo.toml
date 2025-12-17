@@ -1,4 +1,4 @@
-baseURL = "http://dev.imfsoftware.com/"
+baseURL = "https://www.imfsoftware.com/"
 languageCode = "en-us"
 title = "IMF Software Solutions"
 
@@ -14,19 +14,21 @@ ignoreLogs = ['warning-goldmark-raw-html']
     extended = true
     min = "0.110.0"
   [[module.imports]]
-    path = "github.com/JugglerX/hugo-hero-theme"
+    #path = "github.com/JugglerX/hugo-hero-theme"
+    path = "github.com/zerostaticthemes/hugo-hero-theme"
+    disable = false
     
 [params]
   google_analytics_id=""
 
   [params.logo]
-    mobile = "images/logo-mobile.svg"
-    mobile_height = "36px"
-    mobile_width = "36px"
-    desktop = "images/logo.svg"
-    desktop_height = "29px"
-    desktop_width = "217px"
-    alt = "Hugo Hero"
+    mobile = "images/company-icon-32.png"
+    mobile_height = "32px"
+    mobile_width = "32px"
+    desktop = "images/company-icon.png"
+    desktop_height = "92px"
+    desktop_width = "92px"
+    alt = "IMF Software Solutions"
 
   [params.homepage_meta_tags]
     meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
@@ -40,9 +42,14 @@ ignoreLogs = ['warning-goldmark-raw-html']
     meta_twitter_creator = "@zerostaticio"
 
 [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
 	name = "Services"
 	url = "/services/"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     name = "About"

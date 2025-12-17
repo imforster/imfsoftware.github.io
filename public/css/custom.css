@@ -1,0 +1,43 @@
+/* Custom logo sizing - same size for desktop and mobile */
+.header .logo img,
+.logo img,
+img[alt="IMF Software"] {
+  height: 32px !important;
+  width: 32px !important;
+  max-width: 32px !important;
+  object-fit: contain !important;
+  image-rendering: -webkit-optimize-contrast !important;
+}
+
+/* Mobile logo sizing - same as desktop now */
+@media (max-width: 768px) {
+  .header .logo img,
+  .logo img,
+  img[alt="IMF Software"] {
+    height: 32px !important;
+    width: 32px !important;
+    max-width: 32px !important;
+  }
+}
+
+/* Hero image optimization */
+.hero-image-fullscreen {
+  height: 60vh !important;
+  min-height: 700px !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Add more padding above hero text */
+.hero-image .hero-text {
+  padding-top: 80px !important;
+}
+
+@media (max-width: 768px) {
+  .hero-image-fullscreen {
+    height: 98vh !important;
+    min-height: 800px !important;
+  }
+}
