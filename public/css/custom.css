@@ -31,7 +31,7 @@ img[alt="IMF Software"] {
 
 /* Add more padding above hero text */
 .hero-image .hero-text {
-  padding-top: 80px !important;
+  padding-top: 240px !important;
 }
 
 @media (max-width: 768px) {
