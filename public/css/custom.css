@@ -23,6 +23,7 @@ img[alt="IMF Software"] {
 /* Hero image optimization */
 .hero-image-fullscreen {
   height: 60vh !important;
+  min-height: 500px !important;
   background-size: cover !important;
   background-position: center center !important;
   image-rendering: -webkit-optimize-contrast;
@@ -37,5 +38,6 @@ img[alt="IMF Software"] {
 @media (max-width: 768px) {
   .hero-image-fullscreen {
     height: 50vh !important;
+    min-height: 400px !important;
   }
 }
