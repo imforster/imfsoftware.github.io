@@ -37,7 +37,7 @@ img[alt="IMF Software"] {
 
 @media (max-width: 768px) {
   .hero-image-fullscreen {
-    height: 95vh !important;
-    min-height: 775px !important;
+    height: 98vh !important;
+    min-height: 800px !important;
   }
 }
