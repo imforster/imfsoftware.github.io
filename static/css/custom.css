@@ -34,3 +34,9 @@ img[alt="IMF Software"] {
     height: 50vh !important;
   }
 }
+
+/* Restore original intro section sizing */
+.intro {
+  padding-top: 80px !important;
+  padding-bottom: 60px !important;
+}
